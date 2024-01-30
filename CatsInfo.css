@@ -2,9 +2,9 @@ header{
     background-color: #000000;
     color: white;
     text-align: center;
-    padding: 10px;
-    width: 100vw;
-    height: 50px;
+    padding: 0px;
+    height: 10%;
+    width: 100%;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-areas:
@@ -13,11 +13,11 @@ header{
 
 body{
     margin: 0px;
+    padding: 0px;
     background-color: #eeeeee;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: center;
     font-size: 100%;
-    width: 100vw;
 }
 
 .header-container{
@@ -26,30 +26,31 @@ body{
 
 .header-container-second{
     grid-area: header2;
+    padding-top: 2.5vw;
 }
 
 .images{
-    margin: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 .changedImgPysen{
-    margin: 10px;
+    width:200px;
+    height: 190px;
+    object-fit: cover;
+    margin: 5px;
 }
 
-
-
-
 #mainDiv{
-    width: 100vw;
+
     display:flex;
     flex-direction: column;
     text-align: center;
 }
 
 #textAndImg{
+    
     margin-left: 20px;
     display:flex;
     flex-direction: row;
@@ -57,18 +58,24 @@ body{
 
 #changedText{
     font-size: 1.5em;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 #text{
     font-size: 90%;
 }
 
 #secondDiv{
-    width: 100vw;
-    margin-left: 20px;
+ background-color: gray;
     margin-top: 150px;
     display: flex;
     flex-direction: row;
+    padding: 10px;
+}
+
+#catPicSecondDiv{
+    width:300px;
+    height: 280px;
+    object-fit: cover;
 }
 
 @media (max-width: 950px){
