@@ -35,30 +35,40 @@ body{
     justify-content: space-around;
 }
 
+.changedImgPysen{
+    margin: 10px;
+}
+
+
+
+
 #mainDiv{
+    width: 100vw;
     display:flex;
     flex-direction: column;
     text-align: center;
 }
 
 #textAndImg{
+    margin-left: 20px;
     display:flex;
     flex-direction: row;
 }
 
 #changedText{
     font-size: 1.5em;
+    margin-right: 20px;
 }
 #text{
-    font-size: 100%;
+    font-size: 90%;
 }
 
 #secondDiv{
     width: 100vw;
+    margin-left: 20px;
     margin-top: 150px;
     display: flex;
     flex-direction: row;
-
 }
 
 @media (max-width: 950px){

@@ -3,7 +3,7 @@ function PysenPage() {
     document.getElementById("changedImgPysen").src = "Images/IMG_9185.PNG";
     
     const element = document.getElementById("changedText");
-    element.innerHTML = "Allmän fakta pysen Huskatter kan ha vilket temperament som helst, men är oftast frisk och har vanligtvis inte så många nedärva sjukdomsanlag, som kan vara fallet med vissa framavlade raser. Tas huskatten väl omhand, lever den oftast länge. Medellivslängden är ungefär 15 år."
+    element.innerHTML = "Huskatter kan ha vilket temperament som helst, men är oftast frisk och har vanligtvis inte så många nedärva sjukdomsanlag, som kan vara fallet med vissa framavlade raser. Tas huskatten väl omhand, lever den oftast länge. Medellivslängden är ungefär 15 år."
 
     const element2 = document.getElementById("headlineChangeText");
     element2.innerHTML = "FAKTA OM PYSEN";
