@@ -17,7 +17,7 @@ body{
     background-color: #eeeeee;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: center;
-    font-size: 100%;
+    font-size: 20px;
 }
 
 .header-container{
@@ -35,7 +35,7 @@ body{
     justify-content: space-around;
 }
 
-.changedImgPysen{
+.imgInADiv{
     width:200px;
     height: 190px;
     object-fit: cover;
@@ -50,7 +50,7 @@ body{
 }
 
 #textAndImg{
-    
+    margin-right: 20px;
     margin-left: 20px;
     display:flex;
     flex-direction: row;
@@ -81,5 +81,10 @@ body{
 @media (max-width: 950px){
     #textAndImg{
         flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 650px){
+    #test{
+        display: none; 
     }
   }
