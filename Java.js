@@ -8,6 +8,7 @@ const headline = document.getElementById("headlineChangeText");
 const pic1 = document.getElementById("pic1");
 const pic2 = document.getElementById("pic2");
 const pic3 = document.getElementById("pic3");
+const catPicSecondDiv = document.getElementById("catPicSecondDiv");
 
 const flex = document.getElementById("textAndImg");
 
@@ -23,6 +24,8 @@ function PysenPage() {
     headline.innerHTML = "FAKTA OM PYSEN";
 
     flex.style.flexDirection="row";
+
+    catPicSecondDiv.src = "Images/pysen.png"
 }
 
 function PollyPage() {
@@ -36,4 +39,6 @@ function PollyPage() {
     headline.innerHTML = "FAKTA OM POLLY";
 
     flex.style.flexDirection="column";
+
+    catPicSecondDiv.src = "Images/polly2.png"
 }
