@@ -43,7 +43,6 @@ body{
 }
 
 #mainDiv{
-
     display:flex;
     flex-direction: column;
     text-align: center;
@@ -81,10 +80,18 @@ body{
 @media (max-width: 950px){
     #textAndImg{
         flex-wrap: wrap;
+        justify-content: center;
     }
   }
   @media (max-width: 650px){
-    #test{
+    #pic3{
         display: none; 
+    }
+    .imgInADiv{
+        image-resolution:200dpi;
+        width: 100px;
+        height: 90px;
+        object-fit: cover;
+        margin: 5px;
     }
   }
