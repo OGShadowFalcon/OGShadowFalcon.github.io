@@ -12,6 +12,16 @@ const catPicSecondDiv = document.getElementById("catPicSecondDiv");
 
 const flex = document.getElementById("textAndImg");
 
+const h1 = document.getElementById("h1");
+const l1 = document.getElementById("1");
+const l2 = document.getElementById("2");
+const l3 = document.getElementById("3");
+const l4 = document.getElementById("4");
+const l5 = document.getElementById("5");
+const text3 = document.getElementById("changedText3");
+
+
+
 function PysenPage() {
     pic1.src = "Images/IMG_9185.PNG";
     pic2.src = "Images/Skärmbild 2024-01-22 113611.png";
@@ -20,12 +30,19 @@ function PysenPage() {
     text1.innerHTML = "Huskatter kan ha vilket temperament som helst, men är oftast frisk och har vanligtvis inte så många nedärva sjukdomsanlag, som kan vara fallet med vissa framavlade raser. Tas huskatten väl omhand, lever den oftast länge. Medellivslängden är ungefär 15 år.";
     text2.innerHTML = "Huskatter kan ha vilket temperament som helst, men är oftast frisk och har vanligtvis inte så många nedärva sjukdomsanlag, som kan vara fallet med vissa framavlade raser. Tas huskatten väl omhand, lever den oftast länge. Medellivslängden är ungefär 15 år.";
 
-
     headline.innerHTML = "FAKTA OM PYSEN";
 
     flex.style.flexDirection="row";
 
     catPicSecondDiv.src = "Images/pysen.png"
+
+    h1.innerHTML = "SNABBA FAKTA OM PYSEN"
+    l1.innerHTML = "Tjock"
+    l2.innerHTML = "Går upp till Polly och bara slår henne???"
+    l3.innerHTML = "Gluten allergiker"
+    l4.innerHTML = "Laktosintolerant"
+    l5.innerHTML = "Rädd för sällskap på fler än 4 personer"
+    text3.innerHTML = "Huskatter kan ha vilket temperament som helst, men är oftast frisk och har vanligtvis inte så många nedärva sjukdomsanlag, som kan vara fallet med vissa framavlade raser. Tas huskatten väl omhand, lever den oftast länge. Medellivslängden är ungefär 15 år.";
 }
 
 function PollyPage() {
@@ -41,4 +58,12 @@ function PollyPage() {
     flex.style.flexDirection="column";
 
     catPicSecondDiv.src = "Images/polly2.png"
+
+    h1.innerHTML = "SNABBA FAKTA OM POLLY"
+    l1.innerHTML = "Tiny"
+    l2.innerHTML = "Ädre än pysen och inte rädd"
+    l3.innerHTML = "Allätare"
+    l4.innerHTML = "Tycker pysen är irriterande"
+    l5.innerHTML = "Älskar att gå på tangentbord"
+    text3.innerHTML = "Polly är väldigt liten men låt inte hennes storlek lura dig. Hon är en tuff tjej och säljer ofta droger inom grannskapet. Pysen är mycket skraj för Polly eftersom att han är yngre än henne";
 }
