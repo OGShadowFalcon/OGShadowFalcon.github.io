@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background: white;
+    background: #779b9b;
   background-repeat: no-repeat;
   background-attachment: fixed;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -8,7 +8,14 @@ body{
 }
 
 header{
-    background-color: #000000;
+    background-color: #243b43;
+    background-image: url("Images/catsFallingBackgorund.png");   
+    background-size:300px;
+    background-repeat: repeat-x;
+  background-attachment: fixed;    
+  outline: 25px;
+  outline-style: solid;
+  outline-color: #243b43;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
     color: white;
     text-align: center;
     padding: 0px;
@@ -19,7 +26,11 @@ header{
     grid-template-areas:
     "header1 header1 . . . . . . headerButtons headerButtons";
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 #headerButtons{
     width: 200px;
     padding-top: 2vw;
@@ -87,7 +98,7 @@ header{
     color:#eeeeee;
     display: flex;
     flex-direction: row;
-    background-color: #333;
+    background-color: #243b43;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
@@ -97,4 +108,14 @@ header{
 }
 .gallery img:hover{
     opacity: 0.3;
+}
+
+#sleepingCatDiv{
+    width: 100%;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+#sleepingCatPic{
+    align-self: center;
 }
