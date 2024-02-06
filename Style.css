@@ -95,20 +95,23 @@ header{
     white-space: nowrap;
     padding: 10px;
 }
+
 .gallery img{
     padding: 10px;
 }
+
 .gallery img:hover{
     opacity: 0.3;
 }
+
 footer {
     margin-top: 20px;
     text-align: center;
     padding: 10px;
     background-color: #243b43;
-    color: white;
-    
+    color: white; 
 }
+
 #link{
     color: aqua;
 }
