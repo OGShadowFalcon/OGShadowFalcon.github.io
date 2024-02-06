@@ -119,3 +119,14 @@ main{
 #sleepingCatPic{
     align-self: center;
 }
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #243b43;
+    color: white;
+    
+}
+#link{
+    color: aqua;
+}
