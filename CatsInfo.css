@@ -77,6 +77,14 @@ body{
     object-fit: cover;
 }
 
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #243b43;
+    color: white; 
+}
+
 @media (max-width: 950px){
     #textAndImg{
         flex-wrap: wrap;
