@@ -69,6 +69,7 @@ body{
     display: flex;
     flex-direction: row;
     padding: 10px;
+    color: white;
 }
 
 #thirdDiv{
@@ -104,6 +105,9 @@ footer {
     padding: 10px;
     background-color: #243b43;
     color: white; 
+}
+#link{
+    color: aqua;
 }
 
 @media (max-width: 950px){
