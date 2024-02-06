@@ -71,6 +71,27 @@ body{
     padding: 10px;
 }
 
+#thirdDiv{
+       margin-top: 150px;
+       display: flex;
+       flex-direction: column;
+       padding: 10px;
+   }
+#listThridDiv{
+    padding-left: 25%;
+    padding-right: 25%;
+    list-style-type: none;
+    font-size: 30px;
+    
+}
+.listItem{
+    padding-left: 2rem;
+  background-image: url("Images/CarForStar.png");
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
+
 #catPicSecondDiv{
     width:300px;
     height: 280px;
